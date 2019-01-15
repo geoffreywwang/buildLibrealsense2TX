@@ -152,7 +152,7 @@ if [ $JETSON_BOARD == "TX2" ] ; then
   cd $KERNEL_BUILD_DIR
   git checkout $KERNEL_BUILD_VERSION
 elif [ $JETSON_BOARD == "TX1" ] ; then
-    git clone https://github.com/jetsonhacks/buildJetsonTX1Kernel.git
+    git clone https://github.com/geoffreywwang/buildJetsonTX1Kernel.git
     KERNEL_BUILD_DIR=buildJetsonTX1Kernel
     cd $KERNEL_BUILD_DIR
     git checkout $KERNEL_BUILD_VERSION
